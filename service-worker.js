@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/pomo-clock/precache-manifest.07542abc01b25bf969894f4c3e40886c.js"
+  "/pomo-clock/precache-manifest.fbd241161864409fc70240bb98409f27.js"
 );
 
 self.addEventListener('message', (event) => {
