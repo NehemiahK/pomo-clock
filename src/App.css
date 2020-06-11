@@ -1,0 +1,64 @@
+.App{
+  text-align: center;
+  max-width: 600px;
+  margin: 0px auto;
+  border: 5px solid white;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .App {
+    border: none
+  }
+}
+
+.length-controls{
+  display: flex;
+  justify-content: space-around;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.length-controls span{
+  cursor: pointer;
+  margin:5px;
+}
+
+.main-display{
+  background: #0000004d;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-display span{
+  border: 3px white solid;
+  padding: 5px 20px;
+  border-radius: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.display-controls{
+  margin-top: 15%;
+}
+
+#timer-label{
+  font-size: 24px;
+  margin-top:10%;
+}
+
+#time-left{
+  font-size: 60px;
+  margin-top: 10%;
+}
+
+body{
+  background: #56121e;
+  color: white;
+}
